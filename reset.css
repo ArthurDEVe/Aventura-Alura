@@ -1,0 +1,175 @@
+/* Reset de Margens e Preenchimentos */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset de Listas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Reset de Tabelas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Reset de Imagens e Vídeos */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Reset de Tipografia */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Reset de Cabeçalhos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Reset de Formulários */
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+/* Reset de Botões */
+button {
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Reset de Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reset de Citações e Blocos de Citação */
+blockquote,
+q {
+  quotes: none;
+}
+
+/* Reset de Elementos Inline */
+strong,
+b {
+  font-weight: bold;
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+/* Reset de Abas e Abas de Navegação */
+nav {
+  display: block;
+}
+
+/* Reset de Elementos de Formatação do Texto */
+abbr[title] {
+  text-decoration: underline;
+  text-decoration: dotted;
+}
+
+/* Reset de Tabelas de Estilo de Fontes */
+code,
+samp,
+pre,
+kbd {
+  font-family: monospace, monospace;
+}
+
+/* Reset de Elementos de Rodapé */
+footer {
+  display: block;
+}
+
+/* Reset de Elementos de Cabeçalho */
+header {
+  display: block;
+}
+
+/* Reset de Elementos de Seção */
+section {
+  display: block;
+}
+
+/* Reset de Títulos de Seções */
+hgroup {
+  display: block;
+}
+
+/* Reset de Abas de Navegação */
+nav {
+  display: block;
+}
+
+/* Reset de Listagens e Citações */
+dl,
+dt,
+dd {
+  margin: 0;
+}
+
+/* Reset de Cabeçalhos de Tabelas */
+th {
+  text-align: left;
+}
+
+/* Reset de Table Cells */
+td {
+  vertical-align: top;
+}
+
+/* Reset de Formatação de Campos de Entrada */
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* Reset de Legendas de Formulários */
+legend {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* Reset de Marcas de Formulários */
+label {
+  display: block;
+}
+
+/* Reset de Atributos de Estilo de Texto */
+::placeholder {
+  color: inherit;
+  opacity: 1;
+}
